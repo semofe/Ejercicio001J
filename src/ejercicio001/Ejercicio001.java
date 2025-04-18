@@ -1,7 +1,5 @@
 package ejercicio001;
 
-import java.util.Scanner;
-
 public class Ejercicio001 {
 
     public static void main(String[] args) {
@@ -11,10 +9,6 @@ public class Ejercicio001 {
         p1.name = "Charizard";
         p1.type = "Fire" ;
 
-        
-        System.out.println("Name: " + p1.name + " - " + "Type: "+ p1.type + " - " + "Level: " + p1.lvl);
-        
-        
+        System.out.println("Name: " + p1.name + " - " + "Type: "+ p1.type + " - " + "Level: " + p1.lvl + " - " + "Evolution: " + p1.evo);
     }
-    
 }
